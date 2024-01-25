@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title>
+</head>
+<style>
+    /* CSS Style */
+    button{
+    background:linear-gradient(to right, #fa6cff, #ff008c); /* Gradient background color */
+      color: white; /* White text color */
+      padding: 10px 20px; /* Padding for better appearance */
+      border: 1px solid #424242; /* Border with 2px width and color #ddd */
+      border-radius: 12px; /* Rounded corners */
+      cursor: pointer; /* Gradient background color */}
+      @keyframes rainbow {
+      0% { color: #ff00b3; }
+      16.666% { color: #ff0062; }
+      33.333% { color: #ea00ff; }
+      50% { color: #ff0077; } 
+      66.666% { color: #ff0000; } 
+      83.333% { color: #ff3ae5; } 
+      100% { color: #ff5bc0; } 
+    }
+    body {
+      background: linear-gradient(to on, #ff2aad, #feffff); /* Set gradient background color */
+    }
+    h1 {
+      animation: rainbow 6s infinite; /* Apply rainbow animation to h1 element */
+    }
+  </style>
+<body>
+  <h1>ถึงกันยาที่น่ารักๆ</h1>
+  <button onclick="myFunction()">กดปุ่มค้าบสุดสวย</button>
+
+  <script>
+    function myFunction() {
+      alert("รักนะคับบ!");
+    }
+  </script>
+</body>
+</html>
